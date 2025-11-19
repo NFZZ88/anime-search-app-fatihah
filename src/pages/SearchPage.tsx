@@ -7,8 +7,7 @@ import "./FaatihahFlipCard.css";
 
 export default function SearchPage() {
   const dispatch = useAppDispatch();
-  const { query, page, results, totalPages, loading, error } =
-    useAppSelector((s) => s.search);
+  const { query, page, results, totalPages, loading, error } =    useAppSelector((s) => s.search);
 
   const [input, setInput] = useState(query);
   const debounced = useDebounce(input, 300);
