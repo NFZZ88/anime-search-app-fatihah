@@ -7,7 +7,8 @@ import "./FaatihahFlipCard.css";
 
 export default function SearchPage() {
   const dispatch = useAppDispatch();
-  const { query, page, results, totalPages, loading, error } =    useAppSelector((s) => s.search);
+  const { query, page, results, totalPages, loading, error } =
+    useAppSelector((s) => s.search);
 
   const [input, setInput] = useState(query);
   const debounced = useDebounce(input, 300);
@@ -145,7 +146,7 @@ export default function SearchPage() {
                       <p>Voted Score: {anime.score ?? "N/A"}</p>
                       <p>Episodes: {details?.episodes ?? "?"}</p>
                       <p>Status: {details?.status ?? "N/A"}</p>
-                       <p>Click to view details synopsis</p>
+                      <p>Click to view details synopsis</p>
                     </div>
                   </div>
                 </Link>
