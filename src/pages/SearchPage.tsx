@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useAppDispatch, useAppSelector } from "../utils/hooks";
 import { setQuery, setPage, fetchSearchResults } from "../store/searchSlice";
 import { useDebounce } from "../utils/debounce";
