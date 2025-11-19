@@ -1,6 +1,5 @@
 import { createSlice, createAsyncThunk} from "@reduxjs/toolkit";
-import { QueryStatus } from "@reduxjs/toolkit/query";
-import { useState } from "react";
+
 
 export interface Anime { 
     mal_id: number;
