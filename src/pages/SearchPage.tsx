@@ -99,7 +99,7 @@ export default function SearchPage() {
 
   return (
     <div className="container">
-      <h1>Anime Browser</h1>
+      <h1>Search Anime</h1>
 
       {/* Search bar */}
       <input
