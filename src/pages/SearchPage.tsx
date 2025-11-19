@@ -146,6 +146,7 @@ export default function SearchPage() {
                       <p>Voted Score: {anime.score ?? "N/A"}</p>
                       <p>Episodes: {details?.episodes ?? "?"}</p>
                       <p>Status: {details?.status ?? "N/A"}</p>
+                       <p>Click to view details synopsis</p>
                     </div>
                   </div>
                 </Link>
